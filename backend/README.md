@@ -14,7 +14,7 @@ Tecnologias utilizadas no projeto:
 
 Para executar este projeto é necessário:
 1. Java 8
-2. IDE de preferência Intellij
+2. IDE da sua preferência (ex. Intellij, Eclipse e etc)
 
 ## Execução
 
