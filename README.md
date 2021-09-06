@@ -12,7 +12,7 @@ Lembre-se de escolher uma linguagem com a qual se sinta confortável, esse NÃO 
 
 ## Descrição
 
-Foi desenvolvido o front-end na linguagem React.js (Cliente) e o banck-end na linguagem Java (API Rest).
+Foi desenvolvido o front-end na linguagem React.js (Cliente) e o back-end na linguagem Java (API Rest).
 
 ## Execução do back-end
 
