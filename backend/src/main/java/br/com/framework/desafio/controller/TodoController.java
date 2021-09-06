@@ -9,14 +9,15 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/todo")
+@CrossOrigin("http://localhost:3000")
+@RequestMapping("todos")
 public class TodoController {
 
     @Autowired
     private TodoService todoService;
 
     @Cacheable(value = "todoCache")
-    @GetMapping("/list")
+    @GetMapping("")
     public List<Todo> getAllTodos(){
         return todoService.getAllTodos();
     }
