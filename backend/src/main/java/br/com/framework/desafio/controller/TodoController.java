@@ -16,7 +16,6 @@ public class TodoController {
     @Autowired
     private TodoService todoService;
 
-    @Cacheable(value = "todoCache")
     @GetMapping("")
     public List<Todo> getAllTodos(){
         return todoService.getAllTodos();

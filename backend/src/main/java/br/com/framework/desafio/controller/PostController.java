@@ -19,7 +19,6 @@ public class PostController {
     @Autowired
     PostService postService;
 
-    @Cacheable(value = "postCache")
     @GetMapping("")
     public List<Post> getAllTodos(){
         return postService.getAllPosts();

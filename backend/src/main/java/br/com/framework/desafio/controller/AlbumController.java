@@ -19,7 +19,6 @@ public class AlbumController {
     @Autowired
     AlbumService albumService;
 
-    @Cacheable(value = "albumCache")
     @GetMapping("")
     public List<Album> getAllAlbums(){
         return albumService.getAllAlbums();
